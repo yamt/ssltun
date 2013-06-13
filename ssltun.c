@@ -26,6 +26,15 @@
  * SUCH DAMAGE.
  */
 
+/*
+ * a small program to create a ssl tunnel.
+ *
+ * an alternative is:
+ *    /usr/bin/openssl s_client -connect "$1" -quiet 2>/dev/null
+ *
+ * (i was not aware of s_client when i wrote this program. :-)
+ */
+
 #include <sys/types.h>
 #include <sys/socket.h>
 
