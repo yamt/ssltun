@@ -1,7 +1,7 @@
 ssltun
 ======
 
-This program creates a ssl tunnel.
+This program creates an SSL tunnel.
 
 It's mostly same as:
 
